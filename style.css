@@ -1,0 +1,128 @@
+body{
+    font-family: arial;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightcyan ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px solid black;
+    padding: 20px;
+}
+h1.center{
+    font-family: arial;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid #4CAF50;
+    background-color: lightgreen;
+    color: green;
+    padding-bottom: 20px, 30px;
+    margin-bottom: 20px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    background-image: url("image/me.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 60%;
+    margin: 20px;
+}
+.h2 .a{
+    font-family: arial;
+    text-decoration: none;
+
+}
+.h2 .a:hover{
+    border: 2px solid black;
+    background-color: rgb(255, 239, 11);
+    border-radius: 50px;
+    color: lightgreen;
+}
+h3.self-introduction{
+    font-family: arial;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding: 5px;
+    border: 5px solid rgb(10, 5, 5,);
+    background-color: green;
+}
+h4.educational-background{
+    text-align: left;
+    font-family: arial; 
+    border-top: 2px;
+
+}
+.table{
+    font-family: arial;
+    width:100%;
+    border-collapse: collapse;
+}
+.table, th, td{
+    font-family: arial;
+    background-color: lightcyan;
+    color: black;
+    padding:8px;
+    border: 2px solid rgb(10, 5, 5,);
+}
+.table, th{
+    font-family: arial;
+    border: 1px solid rgb(10, 5, 5,);
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 8px;
+}
+.th, td{
+    padding: 8px;
+    border: 1px solid rgb(231, 231, 231,0.5);
+    width: 25%;
+}
+h5.expertise{
+    font-family: arial;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding: 5px;
+    border: 5px solid rgb(10, 5, 5,);
+    background-color: green;
+}
+ul.li{
+    text-align: left;
+    font-family: arial;
+    list-style-type: square;
+}
+h6.Background-on-Information-Technology{
+    font-family: arial;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding: 5px;
+    border: 5px solid rgb(5, 3, 3,);
+    background-color: green;
+}
+h6.p{
+    text-align: left;
+    font-family: arial;
+}
+h7.applications-used{
+    font-family: arial;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid #4CAF50;
+    padding: 5px;
+    border: 5px solid rgb(10, 5, 5,);
+    background-color: green;
+}
+h7.ol{
+    text-align: left;
+    font-family: arial,;
+    list-style-type: decimal;
+    margin-left: 50px;
+}
